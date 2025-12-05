@@ -450,8 +450,38 @@ input {
     width: 13px;
 }
 
+.btn {
+    display: block;
+    width: 160px;
+    margin: 25px auto;
+    text-align: center;
+    padding: 10px;
+    background: black;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
 .footer {
     background-color: rgb(137, 53, 53);
+    color: #fff;
+    padding: 40px 8%;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+
+}
+
+
+/* Footer Styling */
+.footer {
+     background-color: rgb(137, 53, 53);
     color: #fff;
     padding: 40px 8%;
     font-family: 'Poppins', sans-serif;
@@ -476,9 +506,9 @@ input {
     justify-content: center;
     align-items: center;
     gap: 40px;
-    margin: 20px 0;
-
-
+    margin: 20px 0; 
+    font-size: 25px;
+  
 }
 
 .social-icons a {
@@ -486,9 +516,8 @@ input {
     align-items: center;
     text-decoration: none;
     color: white;
-
+   
 }
-
 .social-icons img {
     width: 30px;
     height: 30px;
@@ -505,7 +534,7 @@ input {
 }
 
 .col h4 {
-    font-size: 15px;
+    font-size: 30px;
     text-transform: uppercase;
     margin-bottom: 12px;
 }

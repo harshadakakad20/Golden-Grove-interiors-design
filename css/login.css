@@ -206,6 +206,25 @@ input {
 }
 
 
+.btn {
+    display: block;
+    width: 160px;
+    margin: 25px auto;
+    text-align: center;
+    padding: 10px;
+    background: black;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+
+/* Footer Styling */
 .footer {
      background-color: rgb(137, 53, 53);
     color: #fff;
@@ -233,6 +252,7 @@ input {
     align-items: center;
     gap: 40px;
     margin: 20px 0; 
+    font-size: 25px;
   
 }
 
@@ -259,7 +279,7 @@ input {
 }
 
 .col h4 {
-    font-size: 15px;
+    font-size: 30px;
     text-transform: uppercase;
     margin-bottom: 12px;
 }
@@ -289,4 +309,3 @@ input {
         text-align: center;
     }
 }
-
