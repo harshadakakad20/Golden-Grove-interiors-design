@@ -265,10 +265,10 @@ input {
 
 }
 
-.footer-top {
-    text-align: center;
-    margin-bottom: 30px;
-    
+
+.footer-logo {
+    width: 100px;
+    margin-bottom: 10px;
 }
 
 .footer-logo {
